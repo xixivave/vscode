@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+			#outBox {
+				width: 1200px;
+
+				/* 盒子居中 1.有宽度 2.设置边界左右为自动 */
+				margin: 0px auto;
+				/* margin-left: 200px; */
+			}
+
+			.floatBox {
+				width: 100px;
+				height: 100px;
+				background: #FFB6C1;
+				margin-right: 10px;
+
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<!--浮动float就是解决盒子的布局问题，可以用于布局的元素应该是块级元素
+ -->
+		<div id="outBox">
+			<div class="floatBox">
+				1
+			</div>
+			<div class="floatBox">
+				2
+			</div>
+			<div class="floatBox">
+				3
+			</div>
+			<!-- <div class="floatBox">
+				4
+			</div>
+			<div class="floatBox">
+				5
+			</div> -->
+		</div>
+	</body>
+</html>
